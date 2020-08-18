@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="imgpro.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Image Editing</title>
+  </head>
+  <body>
+    <header>
+      <div class="hero-text-box">
+          <h1 id="hero-text">Revolutionary image editor</h1>
+          <a class="btn btn-full" href="#section-features">For Instructor</a>
+          <a class="btn btn-ghost" href="#">For Student</a>
+      </div>
+    </header>
+    <section id="section-features">
+      <div class="p-3">
+        <h1 class="pt-2" style="font-size:1.5rem; color:#e67e22;">CREATE TASK:</h1>
+        <div>
+          <input class="m-3"type="text" style="background:rgba(255,255,255,0.8); border-width:3px;  border-color:#e67e22;" name="" placeholder="enter task ID">
+          <div class="m-2" id="drop-region">
+            <div class="drop-message">
+              Click to upload!!
+            </div>
+            <div id="image-preview"></div>
+          </div>
+          <textarea class="m-3" style="width:40%; height:100px; background: rgba(255,255,255,0.8); border-width:3px;  border-color:#e67e22;" placeholder="enter editing details"></textarea>
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="secdiv">
+        <h1 style="font-size:1.5rem; color:#e67e22;">SCORING TASK:</h1>
+        <div>
+          <select class="m-3"type="text" style="background:rgba(255,255,255,0.8); border-width:3px;  border-color:#e67e22;" name="option">
+            <option value="" disabled selected>Select ID</option>
+            <option value="1">ID 1</option>
+            <option value="2">ID 2</option>
+            <option value="3">ID 3</option>
+          </select>
+          <div class="m-2" id="drop-region1">
+            
+          </div>
+          <textarea class="m-3" style="width:40%; height:40px; background: rgba(255,255,255,0.8); border-width:3px;  border-color:#e67e22;" placeholder="enter score out of 10"></textarea>
+        </div>
+      </div>
+      
+    </section>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="imgpro.js"></script>
+  </body>
+</html>

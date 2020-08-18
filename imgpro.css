@@ -1,0 +1,134 @@
+
+*{
+  	margin: 0;
+  	padding: 0;
+}
+
+section {
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-image: linear-gradient(rgba(0%, 0%, 0%, .2),rgba(0%, 0%, 0%, .2)),url('images/banner-03.jpg');
+}
+input:focus, textarea,button{
+    outline: none !important;
+}
+
+/*header*/
+header{
+  	min-height: 100vh;
+    background-image: linear-gradient(rgba(0%, 0%, 0%, .4),rgba(0%, 0%, 0%, .4)),url('images/backimg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.hero-text-box {
+    position: absolute;
+    top: 60%;
+    left: 45%;
+    transform: translate(-50%, -50%);
+}
+
+#hero-text{
+    color: white;
+}
+
+/*links*/
+a:link,
+a:visited {
+    color: #e67e22;
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid #e67e22;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #555;
+    border-bottom: 1px solid transparent;
+}
+
+/*buttons*/
+
+.btn:link,
+.btn:visited,
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    margin-top: 20px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+.btn-full:link,
+.btn-full:visited,
+input[type=submit] {
+    background-color: #e67e22;
+    border: 1px solid #e67e22;
+    color: #fff;
+}
+
+.btn-ghost:link,
+.btn-ghost:visited {
+    border: 1px solid #e67e22;
+    color: #e67e22;
+}
+
+.btn:hover,
+.btn:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #cf6d17;
+}
+
+.btn-full:hover,
+.btn-full:active,
+input[type=submit]:hover,
+input[type=submit]:active {
+    border: 1px solid #cf6d17;
+}
+
+.btn-ghost:hover,
+.btn-ghost:active {
+    border: 1px solid #cf6d17;
+    color: #fff;
+}
+
+/*image uploading*/
+#drop-region{
+    border-radius:20px;
+    background: rgba(0,0,0,0.5);
+    box-shadow:0 0 35px rgba(255,255,255,0.05);
+    width:40%;
+    height:150px;
+    padding:5%;
+    text-align: center;
+    cursor: pointer;
+    transition:.3s;
+}
+
+#drop-region:hover {
+    box-shadow:0 0 45px rgba(255,255,255,0.3);
+}
+
+.drop-message{
+  color:#e67e22;
+}
+
+.secdiv{
+  margin:0 0 0 45%;
+
+}
+
+#drop-region1{
+    border-radius:20px;
+    background: rgba(0,0,0,0.5);
+    box-shadow:0 0 35px rgba(0,0,0,0.05);
+    width:70%;
+    height:250px;
+    padding:5%;
+    
+}
